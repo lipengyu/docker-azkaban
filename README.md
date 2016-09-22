@@ -20,9 +20,9 @@ Dockerfiles is base on : [puckel docker-azkaban](https://github.com/puckel/docke
 2. Install [Docker-compose](https://docs.docker.com/compose/install/).
 
 3. Download automated builds
-    [azkaban-webserver](https://registry.hub.docker.com/u/lipengyu/azkaban-webserver/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull lipengyu/docker-azkaban-webserver`
-    [azkaban-executor](https://registry.hub.docker.com/u/lipengyu/azkaban-executor/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull lipengyu/docker-azkaban-executor`
-    Alternatively, you can build an image from [Dockerfile](https://github.com/lipengyu/docker-azkaban).
+* [azkaban-webserver](https://hub.docker.com/r/lipengyu/azkaban-webserver/) from public [Docker Hub Registry](https://hub.docker.com/): `docker pull lipengyu/azkaban-webserver`
+* [azkaban-executor](https://hub.docker.com/r/lipengyu/azkaban-executor/) from public [Docker Hub Registry](https://hub.docker.com/): `docker pull lipengyu/azkaban-executor`
+* **Alternatively, you can build an image from [Dockerfile](https://github.com/lipengyu/docker-azkaban).**
 
 ### Usage
 ```bash
